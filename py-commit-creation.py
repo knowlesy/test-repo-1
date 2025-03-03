@@ -32,7 +32,7 @@ def create_file(branch_name, file_path, content):
     repo.create_file(path=file_path, message="Add new file", content=content, branch=branch_name)
 
 # Custom start and end dates with time
-time_str = '12:00:00'
+time_str = '17:02:00'
 start_date_str = f'2010-01-01 {time_str}'
 end_date_str = f'2012-01-01 {time_str}'
 start_date = datetime.strptime(start_date_str, "%Y-%m-%d %H:%M:%S")
