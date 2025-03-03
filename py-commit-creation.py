@@ -53,8 +53,8 @@ while current_date < end_date:
     create_file(branch_name, file_path, file_content)
     
     # Create a pull request
-    pr_title = f'ABC ENV Automated PR {current_date.strftime("%Y-%m-%d %H:%M:%S")}'
-    pr_body = 'This is an automated pull request. Effecting the environment ABC_123'
+    pr_title = f'XYZ ENV Automated PR {current_date.strftime("%Y-%m-%d %H:%M:%S")}'
+    pr_body = 'This is an automated pull request. Effecting the environment XYZ_321'
     pr = create_pr(branch_name, pr_title, pr_body)
     
     # Merge the pull request
